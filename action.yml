@@ -2,7 +2,7 @@ name: "Merge pull requests"
 description: "Automatically merge pull requests that are ready"
 runs:
   using: "docker"
-  image: "docker.pkg.github.com/pascalgn/automerge-action/automerge-action"
+  image: "docker.pkg.github.com/pascalgn/automerge-action/automerge-action:v0.6.0"
 branding:
   icon: "git-pull-request"
   color: "blue"
